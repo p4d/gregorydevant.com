@@ -1,2 +1,6 @@
 # gregorydevant.com
-Mon site Web
+Code de mon site web
+
+## Projets utilisés
+  - html5boilerplate
+  - bootstrap 4
