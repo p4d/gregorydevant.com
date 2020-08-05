@@ -87,6 +87,61 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+  position: relative;
+}
+
+.table{
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.table-cell{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+nav#menu{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background: #fff !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  top: -50px;
+}
+
+div#home{
+  height: 100vh;
+  position: relative;
+  /* background: url("../img/dotted_bg_4.png"); 
+  background-size: cover; */
+}
+
+div#home-inner{
+  padding: 45px;
+  border: 1px solid #888;
+  border-radius: 4px;
+  background: #fff;
+}
+
+#presentation{
+
+}
+
+#technologies{
+
+}
+
+#realisations{
+
+}
+
+#contact{
+
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
