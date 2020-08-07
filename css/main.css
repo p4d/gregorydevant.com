@@ -87,19 +87,38 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@font-face{
+  font-family: "Open Sans";
+  src: url(./fonts/OpenSans-Regular-webfont.woff);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: "Open Sans";
+  src: url(./fonts/OpenSans-Italic-webfont.woff);
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: "Comic Relief";
+  src: url(./fonts/ComicRelief-webfont.woff);
+  font-style: normal;
+  font-weight: normal;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   position: relative;
+  font-family: "Open Sans", Georgia, serif;
 }
 
-.table{
-  display: table;
-  height: 100%;
-  width: 100%;
-}
-
-.table-cell{
-  display: table-cell;
-  vertical-align: middle;
+h1{
+  font-family: "Comic Relief";
 }
 
 nav#menu{
@@ -115,15 +134,62 @@ nav#menu{
 div#home{
   height: 100vh;
   position: relative;
-  /* background: url("../img/dotted_bg_4.png"); 
-  background-size: cover; */
+}
+
+.table{
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.table-cell{
+  display: table-cell;
+  vertical-align: middle;
 }
 
 div#home-inner{
+  display: flex;
   padding: 45px;
   border: 1px solid #888;
   border-radius: 4px;
   background: #fff;
+}
+
+.snap-wrapper img{
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.menu-home ul{
+  margin-top: 30px;
+  padding-inline-start: 0;
+}
+
+.menu-home li{
+  display: inline-block;
+  list-style: none;
+  padding-right: 15px;
+}
+
+.menu-home li a{
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  border: 1px solid #888;
+  border-radius: 4px;
+  box-shadow: 0px 1px #888;
+  text-decoration: none;
+  color: #888;
+  padding: 8px 12px;
+  width: 140px;
+  text-align: center;
+}
+
+.menu-home li a:hover{
+  color: #444;
+  border-color: #444;
 }
 
 #presentation{
