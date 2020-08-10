@@ -89,9 +89,9 @@ textarea {
 
 @font-face{
   font-family: "Open Sans";
-  src: url(./fonts/OpenSans-Regular-webfont.woff);
+  src: url(./fonts/OpenSans-Bold-webfont.woff);
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 @font-face{
@@ -99,6 +99,20 @@ textarea {
   src: url(./fonts/OpenSans-Italic-webfont.woff);
   font-style: italic;
   font-weight: normal;
+}
+
+@font-face{
+  font-family: "Open Sans";
+  src: url(./fonts/OpenSans-Regular-webfont.woff);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: "Open Sans";
+  src: url(./fonts/OpenSans-Light-webfont.woff);
+  font-style: normal;
+  font-weight: lighter;
 }
 
 @font-face{
@@ -118,7 +132,7 @@ body{
 }
 
 h1{
-  font-family: "Comic Relief";
+  /* font-weight: 200; */
 }
 
 nav#menu{
@@ -177,6 +191,7 @@ div#home-inner{
   position: relative;
   display: inline-block;
   font-size: 14px;
+  font-weight: 600;
   border: 1px solid #888;
   border-radius: 4px;
   box-shadow: 0px 1px #888;
@@ -188,8 +203,8 @@ div#home-inner{
 }
 
 .menu-home li a:hover{
-  color: #444;
-  border-color: #444;
+  color: #333;
+  border-color: #333;
 }
 
 #presentation{
