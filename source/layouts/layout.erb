@@ -17,18 +17,61 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- CDN for bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/styles.scss">
-    <%= stylesheet_link_tag "site" %>
+    <%= stylesheet_link_tag "styles" %>
 
     <meta name="theme-color" content="#fafafa">
   </head>
   <body>
+
+    <nav id="menu" class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Gregory Devant</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#presentation">Présentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#technologies">Technologies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Réalisations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <%= yield %>
 
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h3>Annie Sexton | Full Stack Web Developer</h3>
+            <p>Shoot me an email: <a href="mailto:anniesexton@gmail">anniesexton@gmail.com</a></p>
+          </div>
+          <div class="col-sm-6">
+            <ul class="social-icons">
+              <li><a href="https://github.com/anniesexton" target="_blank"><i class="icon-github-circled"></i></a></li>
+              <li><a href="https://instagram.com/anniebabannie" target="_blank"><i class="icon-instagram"></i></a></li>
+              <li><a href="https://twitter.com/anniecsexton" target="_blank"><i class="icon-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/pub/annie-sexton/46/72a/114" target="_blank"><i class="icon-linkedin-squared"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
     <!-- Including JS files at the end -->
     <%= javascript_include_tag "site" %>
   </body>
