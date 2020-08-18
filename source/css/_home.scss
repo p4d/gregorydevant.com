@@ -3,11 +3,14 @@ div#home{
   height: 100vh;
   position: relative;
 
-  background:
+  /* background:
   linear-gradient(90deg, $bg-color-home ($dot-space - $dot-size), transparent 1%) center,
   linear-gradient($bg-color-home ($dot-space - $dot-size), transparent 1%) center,
   $dot-color-home;
-  background-size: $dot-space $dot-space;
+  background-size: $dot-space $dot-space; */
+
+  @include dotted-background ($bg-color-home, $dot-color-home, $dot-space, $dot-size);
+  box-shadow: inset 0 -1px 20px $dot-color-home;
 
   #home-inner{
     display: flex;
@@ -22,6 +25,27 @@ div#home{
     width: 250px;
     height: 250px;
     border-radius: 50%;
+  }
+
+  #start-arrow {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 36px;
+    z-index: 2;
+    display: block;
+    padding: 30px;
+    i {
+      color: #aaa;
+      @include transition(font 0.1s, color 0.1s);
+    }
+    &:hover i {
+      color: #333;
+      font-size: 38px;
+    }
   }
 
   .menu-home{

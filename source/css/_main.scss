@@ -47,6 +47,20 @@ html {
 	font-weight: lighter;
 }
 
+@mixin scale($scale-args...) {
+  -webkit-transform: scale($scale-args);
+      -ms-transform: scale($scale-args); // IE9 only
+          transform: scale($scale-args);
+}
+
+@mixin dotted-background( $bg-color, $dot-color, $dot-space, $dot-size ){
+  background:
+  linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+  linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+  $dot-color;
+  background-size: $dot-space $dot-space;
+}
+
 body{
   position: relative;
   font-family: "Open Sans", Georgia, serif;
@@ -120,6 +134,7 @@ textarea {
 
 .table{
   display: table;
+  margin-bottom: 0;  // Correction of a margin that causes a gap between two sections of the site
   height: 100%;
   width: 100%;
 }
@@ -128,3 +143,9 @@ textarea {
   display: table-cell;
   vertical-align: middle;
 }
+
+.section-header {
+	text-align: center;
+	padding: 60px 0;
+}
+

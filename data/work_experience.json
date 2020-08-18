@@ -1,0 +1,33 @@
+{
+    "work_experience": [
+      {
+        "title": "Développeur Web Full Stack",
+        "company": "Banque Edel",
+        "location": "Labège, France",
+        "when": "Avril 2016 – Present",
+        "is_current": "true",
+        "description": "Développement de sites marketing responsives et dotés de fonctionnalités avancées en HTML, CSS et Javascript (jQuery et VueJS). \n Mise en place d'outils techniques améliorant la qualité de travail comme Git (GitLab), ou la qualité des informations relatives aux sites développés (Google Analytics). \n Optimisation SEO et amélioration conséquente des performances des différents sites web."
+      },
+      {
+        "title": "Développeur Web Full Stack",
+        "company": "STUDEC",
+        "location": "Blagnac, France",
+        "when": "Février 2012 - Mars 2016",
+        "description": "Développement d'une application d'e-learning RESTFull en JAVA/J2EE. Optimisation des interfaces graphiques en HTML, CSS et Javascript (jQuery + AJAX). \n Maintenance et gestion des sources au travers de l'outil SVN (merge et gestion conflits). Communication / assistance de l'équipe Indienne en Anglais et sur divers aspects. \n Optimisations du workflow Jenkins."
+      },
+      {
+        "title": "Développeur Web",
+        "company": "ORUMiP",
+        "location": "Toulouse, France",
+        "when": "Septembre 2010 – Août 2011",
+        "description": "Maintien et mise à jour de sites internet pour des comptes divers. Création de formulaires ergonomiques et administrables, utilisés par les Médecins dans le cadre d'études médicales. \n Développement API REST (PHP) avec écriture de tests unitaires et End-to-End (Sélénium)"
+      },
+      {
+        "title": "Développeur Web (Alternance)",
+        "company": "ORUMiP",
+        "location": "Toulouse, France",
+        "when": "Septembre 2008 - Août 2010",
+        "description": "Développement d'une solution simple de gestion des dossiers patients au sein du CRA du SAMU de Toulouse (Centre de réception des Appels). Solution testée et approuvée lors d'exercices de Médecine de Catastrophe. \n Création d'outils web d'audits et d'administrations ergonomiques qui n'interfèrent pas avec le diagnostic réalisé. \n Mise à jour et gestion de sites internet divers pour le compte d'associations médicales."
+      }
+    ]
+  }

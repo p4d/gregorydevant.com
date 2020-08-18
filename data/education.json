@@ -1,0 +1,19 @@
+{
+    "education": [
+      {
+        "title": "DUT Informatique",
+        "subtitle": "BAC+ 2",
+        "location": "Institut Universitaire Technologique Blagnac"
+      },
+      {
+        "title": "Licence NTIE",
+        "subtitle": "BAC+ 3",
+        "location": "Institut Universitaire Professionnel NTIE"
+      },
+      {
+        "title": "Master NTIE",
+        "subtitle": "BAC+ 5",
+        "location": "Institut Universitaire Professionnel NTIE"
+      }
+    ]
+  }

@@ -1,0 +1,61 @@
+{
+    "skills": [
+      {
+        "group": "Server-side",
+        "slug": "server-side",
+        "skills": [
+            [
+                "PHP",
+                "NodeJS",
+                "Laravel",
+                "MySQL",
+                "Postgres",
+                "MongoDB",
+                "Git + SVN",
+                "JAVA (Android)",
+                "REST API",
+                "Apache",
+                "AWS"
+            ]
+        ]
+      },
+      {
+        "group": "Client-side",
+        "slug": "client-side",
+        "skills": [
+            [
+                "HTML5",
+                "CSS3 + SASS + LESS",
+                "Javascript ES5 + 6",
+                "jQuery",
+                "VueJS",
+                "SEO",
+                "Bootstrap",
+                "Google Analytics"
+            ]
+        ] 
+      },
+      {
+        "group": "Tools & more",
+        "slug": "tools-and-more",
+        "skills": [
+            [
+                "Docker",
+                "Webpack",
+                "Vagrant",
+                "Gulp",
+                "Middleman",
+                "Sélénium"
+            ],
+            [
+                "C + C++",
+                "Ruby",
+                "Programmation Fonctionnelle"
+            ],
+            [
+                "Anglais courant"
+            ]
+        ] 
+      }
+    ]
+  }
