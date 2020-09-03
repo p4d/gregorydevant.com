@@ -44,22 +44,13 @@ body {
   line-height: 1.5;
 }
 
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
+nav#menu{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background: #fff !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  top: -50px;
 }
 </style>
