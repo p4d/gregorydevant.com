@@ -1,0 +1,92 @@
+{
+    "portofolio": [
+      {
+        "name": "Edelservices",
+        "where": "Banque Edel",
+        "url": "https://www.edelservices.fr/",
+        "tags": [
+          "Laravel",
+          "Custom Theme",
+          "HTML5/CSS3",
+          "Responsive",
+          "jQuery",
+          "Google Ananlytics"
+          ],
+        "img": "edelservices.png",
+        "description": ""
+      },
+      {
+        "name": "E-Carte Cadeau Leclerc",
+        "where": "Banque Edel",
+        "url": "https://www.e-cartecadeauleclerc.fr/",
+        "tags": [
+          "Bootstrap",
+          "HTML5/CSS3",
+          "Responsive",
+          "jQuery + AJAX",
+          "SEO",
+          "Google Ananlytics"
+        ],
+        "img": "e-cartecadeau.png",
+        "description": ""
+      },
+      {
+        "name": "Garantie Remboursement Intégral",
+        "where": "Banque Edel",
+        "url": "https://www.garantie-remboursement-integral.com/",
+        "tags": [
+          "Bootstrap",
+          "HTML5/CSS3",
+          "Responsive",
+          "jQuery + AJAX",
+          "SEO",
+          "Google Ananlytics"
+        ],
+        "img": "gri.png",
+        "description": ""
+      },
+      {
+        "name": "Banque Edel",
+        "where": "Banque Edel",
+        "url": "https://www.banque-edel.fr/",
+        "tags": [
+          "Bootstrap",
+          "HTML5/CSS3",
+          "Responsive",
+          "jQuery + AJAX",
+          "SEO",
+          "Google Ananlytics"
+        ],
+        "img": "banque-edel.png",
+        "description": ""
+      },
+      {
+        "name": "Alipay",
+        "where": "Banque Edel",
+        "url": "https://www.paywel.fr/alipay.php",
+        "tags": [
+          "Bootstrap",
+          "HTML5/CSS3",
+          "Responsive",
+          "jQuery",
+          "SEO"
+        ],
+        "img": "alipay.png",
+        "description": ""
+      },
+      {
+        "name": "Site Web personnel",
+        "where": "Freelance",
+        "url": "http://www.gregorydevant.com/",
+        "tags": [
+          "Middleman",
+          "Bootstrap",
+          "HTML5/CSS3",
+          "Responsive",
+          "jQuery"
+        ],
+        "img": "gdevant.png",
+        "description": ""
+      }
+    ]
+  }
