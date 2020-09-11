@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="h-screen dotted-background flex items-center">
-      <div class="flex md:flex-row home-wrapper h-screen/2 w-2/3 rounded bg-white mx-auto px-8 py-16">
+      <div class="flex md:flex-row home-wrapper h-screen/2 sm:w-full md:w-2/3 rounded bg-white mx-auto px-8 py-16">
         <div class="flex-initial px-1 object-center">
           <g-image class="rounded-full" src="~/assets/images/padoramix.png" alt="My Face"/>
         </div>
@@ -9,11 +9,11 @@
           <h1 class="text-3xl">Je m'appelle Grégory Devant.<br />
             Je suis <strong>développeur full stack</strong> et <strong>amoureux de la nature</strong>.</h1>
           <div class="menu-home">
-            <ul class="pt-5">
+            <ul class="pt-8">
               <li class="inline pr-5 "><a class="smooth-scroll rounded text-sm text-gray-500 border border-gray-400 p-2 uppercase" href="#portofolio">Réalisations</a></li>
-              <li class="inline pr-5 "><a class="smooth-scroll" href="#presentation">Présentation</a></li>
-              <li class="inline pr-5 "><a class="smooth-scroll" href="#technologies">Technologies</a></li>
-              <li class="inline pr-5 "><a class="smooth-scroll" href="#contact">Contact</a></li>
+              <li class="inline pr-5 "><a class="smooth-scroll rounded text-sm text-gray-500 border border-gray-400 p-2 uppercase" href="#presentation">Présentation</a></li>
+              <li class="inline pr-5 "><a class="smooth-scroll rounded text-sm text-gray-500 border border-gray-400 p-2 uppercase" href="#technologies">Technologies</a></li>
+              <li class="inline pr-5 "><a class="smooth-scroll rounded text-sm text-gray-500 border border-gray-400 p-2 uppercase" href="#contact">Contact</a></li>
             </ul>
           </div>
         </div>
