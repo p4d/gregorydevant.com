@@ -8,5 +8,8 @@ import Basic from '~/layouts/Basic.vue'
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
-  Vue.component('Layout', Basic)
+  Vue.component('Layout', Basic),
+
+  // Add attributes to BODY tag
+  head.bodyAttrs = { class: 'debug-screens' }
 }
